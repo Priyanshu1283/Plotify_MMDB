@@ -1,12 +1,10 @@
 import axios from "axios";
 
-const instance = axios.create(
-    {
-        baseURL: "https://api.themoviedb.org/3/",
-        headers: {
-            accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlN2FlYmMwNmVhYzZmZjMxN2I1MDFlMGE5NDM3YWM0MyIsIm5iZiI6MTczOTA3NTExOS4wOTc5OTk4LCJzdWIiOiI2N2E4MmUyZmI5MzYwYzNlMzNlMDgyNTUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.L3qnJKnhI4kBnwZsIaeAYnsPGriYuMt3khsPYS6Cc5c',
-        }
-    }
-)
+const API_KEY = "e7aebc06eac6ff317b501e0a9437ac43";
+const instance = axios.create({
+    baseURL: "https://api.themoviedb.org/3/",
+    params: { api_key: API_KEY },
+    headers: { accept: "application/json" }
+});
+
 export default instance;
