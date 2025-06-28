@@ -1,9 +1,9 @@
-# 🎬 CINÉCLAIR - The Ultimate Movie Experience
+# 🎬 Plotify - The Ultimate Movie Experience
 
-CINÉCLAIR is a sleek and responsive movie browsing app built with ReactJS and Redux, featuring seamless API integration, dynamic UI interactions with Framer Motion, and a modern, clean design powered by Tailwind CSS. Users can explore details about movies, actors, and TV shows, search for any title, and navigate through various sections like Trending, Popular, and more.
+Plotify is a sleek and responsive movie browsing app built with ReactJS and Redux, featuring seamless API integration, dynamic UI interactions with Framer Motion, and a modern, clean design powered by Tailwind CSS. Users can explore details about movies, actors, and TV shows, search for any title, and navigate through various sections like Trending, Popular, and more.
 
 ## 🌐 Live Demo
-Experience CINÉCLAIR live: [cineclair.netlify.app](https://cineclair.netlify.app/)
+<!-- Experience Plotify live: [cineclair.netlify.app](https://cineclair.netlify.app/) -->
 
 ## 📌 Features
 - **🎥 Real-Time Movie Data**: Fetch live movie details using API integration.
@@ -26,11 +26,11 @@ To get a local copy up and running, follow these simple steps:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rhythmdoshi31/cineclair.git
+   git clone https://github.com/Priyanshu1283/Plotify_MMDB
    ```
 2. Navigate to the project directory:
    ```bash
-   cd cineclair
+   cd CINECLAIR
    ```
 3. Install dependencies:
    ```bash
@@ -47,5 +47,5 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 ## 📄 License
 This project is licensed under the **MIT License**.
 
-Enjoy browsing movies with **CINÉCLAIR**! 🍿
+Enjoy browsing movies with **Plotify**! 🍿
 
