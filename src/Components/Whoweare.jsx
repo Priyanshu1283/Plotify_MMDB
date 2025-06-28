@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Whoweare() {
   const navigate = useNavigate();
-  document.title = "Plotify | Who We Are";
+  document.title = "Plotify | About";
 
   return (
     <motion.div

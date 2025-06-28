@@ -13,7 +13,7 @@ function TVshows() {
     const [category, setcategory] = useState("airing_today");
     const [page, setpage] = useState(1);
     const [hasMore, sethasMore] = useState(true);
-    document.title = "CINÉCLAIR | tvs";
+    document.title = "Plotify || tvs";
 
     const getTv = async () => {
         try {

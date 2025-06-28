@@ -1,9 +1,11 @@
 # 🎬 Plotify - The Ultimate Movie Experience
 
+“An app that helps you discover and explore movie plots”
+
 Plotify is a sleek and responsive movie browsing app built with ReactJS and Redux, featuring seamless API integration, dynamic UI interactions with Framer Motion, and a modern, clean design powered by Tailwind CSS. Users can explore details about movies, actors, and TV shows, search for any title, and navigate through various sections like Trending, Popular, and more.
 
 ## 🌐 Live Demo
-<!-- Experience Plotify live: [cineclair.netlify.app](https://cineclair.netlify.app/) -->
+Experience Plotify live:(https://plotifymmdb-production.up.railway.app)
 
 ## 📌 Features
 - **🎥 Real-Time Movie Data**: Fetch live movie details using API integration.
@@ -30,7 +32,7 @@ To get a local copy up and running, follow these simple steps:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd CINECLAIR
+   cd MovieData
    ```
 3. Install dependencies:
    ```bash

@@ -13,7 +13,7 @@ function Movie() {
     const [category, setcategory] = useState("now_playing");
     const [page, setpage] = useState(1);
     const [hasMore, sethasMore] = useState(true);
-    document.title = "CINÉCLAIR | Movies";
+    document.title = "Plotify || Movies";
 
     const getMovie = async () => {
         try {

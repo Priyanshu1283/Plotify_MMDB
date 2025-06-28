@@ -14,7 +14,7 @@ function People() {
     const [category, setcategory] = useState("popular");
     const [page, setpage] = useState(1);
     const [hasMore, sethasMore] = useState(true);
-    document.title = "CINÉCLAIR | People";
+    document.title = "Plotify || People";
 
     const getPeople = async () => {
         try {

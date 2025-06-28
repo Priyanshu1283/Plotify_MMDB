@@ -13,7 +13,7 @@ function Popular() {
   const [category, setcategory] = useState("movie");
   const [page, setpage] = useState(1);
   const [hasMore, sethasMore] = useState(true);
-  document.title = "CINÉCLAIR | Popular";
+  document.title = "Plotify | Popular";
 
   const getPopular = async () => {
     try {

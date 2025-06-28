@@ -30,7 +30,7 @@ function movieDetails() {
 
       {/* PART 1 NAV*/}
       <nav className='h-[9vh] w-full text-zinc-100 flex items-center  gap-5 text-xl mb-2'>
-      <Link to={"/"} className='bg-yellow-500 w-24 px-2 py-2 text-xs rounded-lg font-semibold text-center'>Go Home</Link>
+      <Link to={"/"} className='bg-blue-500 w-24 px-2 py-2 text-xs rounded-lg font-semibold text-center'> ←Home</Link>
       <Link onClick={() => navigate(-1)} className='hover:text-[#6556cd] ri-arrow-left-line sm:mr-1 lg:mr-3 text-2xl'></Link> 
       <a target='_blank' className='hover:text-[#6556cd] duration:200' href={info.detail.homepage}><i className="ri-external-link-fill"></i></a>
       <a target='_blank' className='hover:text-[#6556cd] duration:200' href={`https://www.wikidata.org/wiki/${info.externalid.wikidata_id}`}><i className="ri-earth-fill"></i></a>

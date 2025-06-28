@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 
 function Contactus() {
   const navigate = useNavigate();
+  document.title = "Plotify || Support";
 
   return (
     <motion.div
