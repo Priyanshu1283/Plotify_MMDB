@@ -6,7 +6,7 @@ function ResMenu() {
     <>
         <h1 className="font-bold text-4xl mb-5 text-white">
             <i className="text-[#6556cd] ri-movie-2-fill mr-1"></i>
-            <span>CINÉCLAIR</span>
+            <span>Plotify </span>
           </h1>
           <div className="flex flex-col gap-y-6 pt-8">
             <Link to="/trending" className="text-3xl text-white font-semibold">Trending</Link>
@@ -16,7 +16,7 @@ function ResMenu() {
             <Link to="/people" className="text-3xl text-white font-semibold">People</Link>
             <hr className="mt-6"/>
             <div className="flex flex-col gap-y-2 mt-6">
-              <Link to="/whoweare" className="text-2xl text-white font-semibold text-zinc-400">Who We Are</Link>
+              <Link to="/whoweare" className="text-2xl text-white font-semibold text-zinc-400">About Me</Link>
               <Link to="/contactus" className="text-2xl text-white font-semibold text-zinc-400">Contact Us</Link>
             </div>
           </div>
