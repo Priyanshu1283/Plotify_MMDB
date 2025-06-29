@@ -11,9 +11,9 @@ function Sidenav() {
 
   return (
     <>
-      {/* Single Hamburger Icon for Mobile (Top Left Corner) */}
+      {/* Hamburger Icon for Mobile (Top Left Corner) */}
       <button
-        className="md:hidden fixed top-4 left-4 z-60 text-white text-2xl p-2 bg-black/50 backdrop-blur-sm rounded-lg hover:bg-indigo-900/60 transition-all duration-300"
+        className="md:hidden fixed top-4 left-4 z-40 text-white text-2xl p-2 bg-black/50 backdrop-blur-sm rounded-lg hover:bg-indigo-900/60 transition-all duration-300"
         onClick={toggleMenu}
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
@@ -28,7 +28,7 @@ function Sidenav() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "-100%", opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="md:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center z-40 overflow-hidden"
+            className="md:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center z-30 overflow-hidden"
           >
             <div className="w-full h-full bg-gradient-to-br from-black/90 via-indigo-900/80 to-purple-900/70 backdrop-blur-3xl p-4 sm:p-6 flex flex-col">
               <SidebarContent toggleMenu={toggleMenu} />
@@ -89,7 +89,7 @@ function SidebarContent({ toggleMenu }) {
           <i className="ri-film-fill mr-2"></i>Movies
         </Link>
         <Link
-          to="/tvshows" // Changed to lowercase for consistency
+          to="/tvshows"
           className="hover:bg-indigo-900/60 hover:text-white rounded-lg transition-all duration-300 py-2 px-3 sm:px-4"
           onClick={toggleMenu}
         >

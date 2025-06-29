@@ -20,8 +20,8 @@ function Topnav() {
   }, [query]);
 
   return (
-    <div className="w-full h-[10vh] relative flex justify-center items-center">
-      <div className="flex items-center w-full sm:w-3/4 md:w-2/3 relative bg-black/30 backdrop-blur-md rounded-full shadow-lg border border-white/10 px-2 sm:px-4">
+    <div className="w-full h-[10vh] relative flex justify-center items-center ">
+      <div className="flex items-center sm:w-3/4 md:w-2/3 relative bg-black/30 backdrop-blur-md rounded-full shadow-lg border border-white/10 px-2 sm:px-4 z-50">
         <i className="ri-search-line text-xl text-zinc-300 absolute left-4"></i>
         <input
           onChange={(e) => setquery(e.target.value)}
