@@ -11,9 +11,9 @@ function Sidenav() {
 
   return (
     <>
-      {/* Single Hamburger Button for Mobile (Top Left Corner) */}
+      {/* Single Hamburger Icon for Mobile (Top Left Corner) */}
       <button
-        className="md:hidden fixed top-4 left-4 z-50 text-white text-2xl p-2 bg-black/50 backdrop-blur-sm rounded-lg hover:bg-indigo-900/60 transition-all duration-300"
+        className="md:hidden fixed top-4 left-4 z-60 text-white text-2xl p-2 bg-black/50 backdrop-blur-sm rounded-lg hover:bg-indigo-900/60 transition-all duration-300"
         onClick={toggleMenu}
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
@@ -28,9 +28,9 @@ function Sidenav() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "-100%", opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="md:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen bg-fixed bg-center z-40 overflow-hidden"
+            className="md:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center z-40 overflow-hidden"
           >
-            <div className="w-full h-full bg-gradient-to-br from-black/90 via-zinc-900/80 to-purple-900/70 backdrop-blur-3xl p-6 flex flex-col">
+            <div className="w-full h-full bg-gradient-to-br from-black/90 via-indigo-900/80 to-purple-900/70 backdrop-blur-3xl p-4 sm:p-6 flex flex-col">
               <SidebarContent toggleMenu={toggleMenu} />
             </div>
           </motion.div>
@@ -42,7 +42,7 @@ function Sidenav() {
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4, ease: "easeOut" }}
-        className="hidden md:block w-full md:w-[25%] lg:w-[20%] h-screen border-r-2 border-white/10  bg-cover bg-fixed bg-center relative overflow-hidden"
+        className="hidden md:block w-full md:w-[25%] lg:w-[20%] h-screen border-r-2 border-white/10 bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center relative overflow-hidden"
       >
         <div className="absolute inset-0 pointer-events-none">
           <div className="particle particle-1"></div>
@@ -50,7 +50,7 @@ function Sidenav() {
           <div className="particle particle-3"></div>
           <div className="particle particle-4"></div>
         </div>
-        <div className="w-full h-full bg-gradient-to-br from-black/90 via-zinc-900/80 to-purple-900/70 backdrop-blur-3xl p-4 sm:p-6 lg:p-8 relative z-10">
+        <div className="w-full h-full bg-gradient-to-br from-black/90 via-indigo-900/80 to-purple-900/70 backdrop-blur-3xl p-4 sm:p-6 lg:p-8 relative z-10">
           <SidebarContent />
         </div>
       </motion.div>
@@ -63,7 +63,7 @@ function SidebarContent({ toggleMenu }) {
     <>
       <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-white flex items-center">
         <i className="text-indigo-400 ri-movie-2-ai-fill mr-2"></i>
-        <span>PLOTIFY</span>
+        <span>Plotify</span>
       </h1>
       <nav className="flex flex-col text-zinc-200 text-base sm:text-lg mt-6">
         <h1 className="font-semibold text-lg sm:text-xl text-white mt-6 mb-4">New Feeds</h1>
@@ -89,7 +89,7 @@ function SidebarContent({ toggleMenu }) {
           <i className="ri-film-fill mr-2"></i>Movies
         </Link>
         <Link
-          to="/tvshows"
+          to="/tvshows" // Changed to lowercase for consistency
           className="hover:bg-indigo-900/60 hover:text-white rounded-lg transition-all duration-300 py-2 px-3 sm:px-4"
           onClick={toggleMenu}
         >
@@ -111,7 +111,7 @@ function SidebarContent({ toggleMenu }) {
           className="hover:bg-indigo-900/60 hover:text-white rounded-lg transition-all duration-300 py-2 px-3 sm:px-4"
           onClick={toggleMenu}
         >
-          <i className="ri-information-fill mr-2"></i>About me
+          <i className="ri-information-fill mr-2"></i>Who we are
         </Link>
         <Link
           to="/contactus"
