@@ -65,8 +65,11 @@ function SidebarContent({ toggleMenu }) {
         <i className="text-indigo-400 ri-movie-2-ai-fill mr-2"></i>
         <span>Plotify</span>
       </h1>
+     
+
       <nav className="flex flex-col text-zinc-200 text-base sm:text-lg mt-6">
         <h1 className="font-semibold text-lg sm:text-xl text-white mt-6 mb-4">New Feeds</h1>
+        
         <Link
           to="/trending"
           className="hover:bg-indigo-900/60 hover:text-white rounded-lg transition-all duration-300 py-2 px-3 sm:px-4"
@@ -111,7 +114,7 @@ function SidebarContent({ toggleMenu }) {
           className="hover:bg-indigo-900/60 hover:text-white rounded-lg transition-all duration-300 py-2 px-3 sm:px-4"
           onClick={toggleMenu}
         >
-          <i className="ri-information-fill mr-2"></i>Who we are
+          <i className="ri-information-fill mr-2"></i>About me
         </Link>
         <Link
           to="/contactus"
@@ -119,6 +122,13 @@ function SidebarContent({ toggleMenu }) {
           onClick={toggleMenu}
         >
           <i className="ri-phone-fill mr-2"></i>Contact us
+        </Link>
+         <Link
+          to="/AboutApp"
+          className="hover:bg-indigo-900/60 hover:text-white rounded-lg transition-all duration-300 py-2 px-3 sm:px-4"
+          onClick={toggleMenu}
+        >
+          <i className="ri-folder-unknow-line mr-2"></i>App Ke Ware me
         </Link>
       </nav>
     </>

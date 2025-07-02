@@ -84,7 +84,7 @@ function Whoweare() {
             </a>
           </div>
          <div>
-          <h2>Hey This is not Dynamic App coz ,This is using API related contenent</h2>
+          <h2>Hey This is not Dynamic App coz ,This app used API related contains</h2>
          </div>
         </div>
       </div>
