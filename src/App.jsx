@@ -1,17 +1,17 @@
-import { Route, Routes } from 'react-router-dom'
-import Home from './Components/Home'
-import Trending from './Components/Trending'
-import AboutApp from './Components/AboutApp'
-import Popular from './Components/Popular'
-import Movie from './Components/Movie'
-import TVshows from './Components/TVshows'
-import People from './Components/People'
-import MovieDetails from './Components/Templates/MovieDetails'
-import TvDetails from './Components/Templates/TvDetails'
-import PersonDetails from './Components/Templates/PersonDetails'
-import Trailer from './Components/Templates/Trailer'
-import Whoweare from './Components/Whoweare'
-import Contactus from './Components/Contactus'
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
+import Trending from "./Components/Trending";
+import AboutApp from "./Components/AboutApp";
+import Popular from "./Components/Popular";
+import Movie from "./Components/Movie";
+import TVshows from "./Components/TVshows";
+import People from "./Components/People";
+import MovieDetails from "./Components/Templates/MovieDetails";
+import TvDetails from "./Components/Templates/TvDetails";
+import PersonDetails from "./Components/Templates/PersonDetails";
+import Trailer from "./Components/Templates/Trailer";
+import Whoweare from "./Components/Whoweare";
+import Contactus from "./Components/Contactus";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <div className="w-screen min-h-screen bg-gradient-to-br from-black/80 to-black/60 backdrop-blur-2xl flex transition-all duration-500 ease-in-out">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/Aboutapp' element={<AboutApp/>}/>
+          <Route path="/Aboutapp" element={<AboutApp />} />
           <Route path="/trending" element={<Trending />} />
           <Route path="/popular" element={<Popular />} />
           <Route path="/movies" element={<Movie />} />
@@ -37,7 +37,7 @@ function App() {
         </Routes>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
