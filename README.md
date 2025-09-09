@@ -5,7 +5,7 @@
 Plotify is a sleek and responsive movie browsing app built with ReactJS and Redux, featuring seamless API integration, dynamic UI interactions with Framer Motion, and a modern, clean design powered by Tailwind CSS. Users can explore details about movies, actors, and TV shows, search for any title, and navigate through various sections like Trending, Popular, and more.
 
 ## 🌐 Live Demo
-Experience Plotify live:(https://plotifymmdb-production.up.railway.app)
+Experience Plotify live:(https://plotify-mmdb.vercel.app/)
 
 ## 📌 Features
 - **🎥 Real-Time Movie Data**: Fetch live movie details using API integration.

@@ -4,14 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview --host"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
     "@tailwindcss/vite": "^4.1.7",
     "axios": "^1.7.9",
+    "dotenv": "^17.2.2",
     "framer-motion": "^12.4.2",
     "locomotive-scroll": "^5.0.0-beta.21",
     "react": "^19.0.0",
