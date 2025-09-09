@@ -29,7 +29,7 @@ function PersonDetails() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
-      className="w-screen min-h-screen bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center px-4 sm:px-6 md:px-[10%] flex flex-col overflow-y-auto pb-16"
+      className="w-screen min-h-screen bg-[url('/')] bg-cover bg-fixed bg-center px-4 sm:px-6 md:px-[10%] flex flex-col overflow-y-auto pb-16"
     >
       <div className="w-full min-h-screen bg-gradient-to-br from-black/85 to-indigo-900/70 backdrop-blur-2xl rounded-xl shadow-2xl">
         {/* PART 1 NAV */}

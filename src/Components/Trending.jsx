@@ -39,7 +39,7 @@ function Trending() {
     }, [category, duration]);
 
     return trending.length !== 0 ? (
-        <div className="w-screen min-h-screen bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center">
+        <div className="w-screen min-h-screen ">
             <div className="w-full min-h-screen bg-gradient-to-br from-black/80 to-black/60 backdrop-blur-xl">
                 <div className="px-6 md:px-12 py-4 w-full flex flex-col md:flex-row justify-center items-center gap-4">
                     <h1 className="w-full md:w-1/5 text-2xl font-bold text-white flex items-center">

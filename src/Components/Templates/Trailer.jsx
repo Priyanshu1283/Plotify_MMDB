@@ -16,7 +16,7 @@ function Trailer() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className="fixed w-screen h-screen top-0 left-0 flex items-center justify-center bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center z-[100]"
+      className="fixed w-screen h-screen top-0 left-0 flex items-center justify-center  z-[100]"
     >
       <div className="w-full h-full bg-black/80 backdrop-blur-xl flex items-center justify-center">
         <Link

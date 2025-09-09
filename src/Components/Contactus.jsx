@@ -11,7 +11,7 @@ function Contactus() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
-      className="min-h-screen w-full bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center px-4 sm:px-6 md:px-[10%] flex flex-col relative overflow-hidden"
+      className="min-h-screen w-full  px-4 sm:px-6 md:px-[10%] flex flex-col relative overflow-hidden"
     >
       {/* Particle Effect Background */}
       <div className="absolute inset-0 pointer-events-none">

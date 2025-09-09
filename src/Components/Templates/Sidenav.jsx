@@ -28,7 +28,7 @@ function Sidenav() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "-100%", opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="md:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center z-40 overflow-hidden"
+            className="md:hidden fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen  z-40 overflow-hidden"
           >
             <div className="w-full h-full bg-gradient-to-br from-black/90 via-indigo-900/80 to-purple-900/70 backdrop-blur-3xl p-4 sm:p-6 flex flex-col">
               <SidebarContent toggleMenu={toggleMenu} />
@@ -42,7 +42,7 @@ function Sidenav() {
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4, ease: "easeOut" }}
-        className="hidden md:block w-full md:w-[25%] lg:w-[20%] h-screen border-r-2 border-white/10 bg-[url('/glassy.jpg')] bg-cover bg-fixed bg-center relative overflow-hidden"
+        className="hidden md:block w-full md:w-[25%] lg:w-[20%] h-screen border-r-2 border-white/10  relative overflow-hidden"
       >
         <div className="absolute inset-0 pointer-events-none">
           <div className="particle particle-1"></div>
